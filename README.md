@@ -8,11 +8,13 @@ elaborate on one of the ratings: mean rating, popularity rating, positivity rati
 Before creating the workbooks, we are going to tidy up our data and prepare it for the 
 analysis. We are going to create the following datasets:
 
-Movies: movie_id, name, year
-Users: user_id, gender
+Movies: movie_id, movie_name, movie_year
+Users: user_id, user_gender
 Ratings: movie_id, user_id, rating
 
-We will create a micro SQLite analysis database to store our data.
+We will create a SQLite database to store our analysis data. It might seem a redundant
+procedure, however, I think, that it is quite good and useful exercise, and it is always a good idea 
+to keep analysis data well structured and conveniently organized.
 
 The code for this part of the exercise will be stored in a directory called
 **data_preparation**.
