@@ -4,10 +4,7 @@ import re
 import sqlite3
 from sqlite3 import Error as SQLiteError
 
-from settings import ROOT_DIR
-
-DB_FILE = os.path.join(ROOT_DIR, 'sqlitedb', 'movielens.db')
-DATA_FILE = os.path.join(ROOT_DIR, 'data', 'data.csv')
+from settings import DB_FILE, DATA_FILE
 
 QUERIES = {
     # Movies
