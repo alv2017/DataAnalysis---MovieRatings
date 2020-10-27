@@ -4,9 +4,9 @@ The notebooks presented in this project follow the labs from the course on
 "Introduction to Recommender Systems" taught by the University of Minnesota at Coursera:
 https://www.coursera.org/learn/recommender-systems-introduction
 
-I'm not exactly following the labs, however I'm inspired by the labs and the course
-in general, and I hope that by the completion of the course and the project 
-I will gain enough skills and knowledge to convert this into Big Data project.
+I'm not exactly following the course labs, however I'm inspired by the ideas behind them and the course
+in general, and I hope that by the end of the course
+I will gain enough skills and knowledge to convert this into a Big Data project on Recommender Systems.
 
 ## List of Notebooks:
 
